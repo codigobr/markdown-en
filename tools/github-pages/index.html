@@ -1,0 +1,487 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69958365-6"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-69958365-6');
+    </script>
+    <!-- Auto ads - Google -->
+    <script data-ad-client="ca-pub-3427355473051563" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="canonical" href="https://en.markdown.net.br/tools/github-pages/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="author" content="Robert Salles">
+    <meta name="description" content="Complete Markdown™ tutorial for beginners with several examples of how to use the world's simplest markup language.">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://en.markdown.net.br/tools/github-pages/">
+    <meta property="og:title" content="GitHub Pages® - Markdown™ Cheatsheet [Formatting reference]">
+    <meta property="og:description" content="Complete Markdown™ tutorial for beginners with several examples of how to use the world's simplest markup language.">
+    <meta property="og:image" content="https://markdown.net.br/assets/img/markdown.jpg">
+
+    <title>GitHub Pages® - Markdown™ Cheatsheet [Formatting reference]</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2196f3">
+    <meta name="msapplication-TileColor" content="#2196f3">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#2196f3">
+    <!-- CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://markdown.net.br/assets/css/bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-invisibles/prism-show-invisibles.min.css" integrity="sha256-nOfkEPu/TzBvIxN8D/vW8weOUczzDbxRjgik/hA2hBI=" crossorigin="anonymous" />
+    <style type="text/css">
+    	.mv-40 {
+    		margin-top: 40px;
+    		margin-bottom: 40px;
+    	}
+
+    	img[src=""],
+    	img:not([src]) {
+    	  visibility: hidden;
+    	}
+
+    	.caption {
+    	    display: flex;
+    	    justify-content: center;
+    	    align-items: center;
+    	    margin: 10px 0;
+    	    color: hsl(0deg 0% 33%);
+    	    font-style: italic;
+    	    font-size: 75%;
+    	}
+
+    	picture {
+    		display: block;
+    		position: relative;
+    	}
+
+    	.cover-link {
+    		position: absolute;
+    		top: 0;
+    		bottom: 0;
+    		left: 0;
+    		right: 0;
+    	}
+    </style>
+  </head>
+  <body class="themes" cz-shortcut-listen="true">
+    <div id="layout-problem" style="display:none;position:fixed;bottom:20px;left:5px;right:5px;z-index:9999;border-radius:10px;"><div class="layout-problem__container" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;position:relative;"><div class="layout-problem__msg" style="background-color:white;color:#222;padding:5px 35px;border-radius:10px;display:flex;align-items:center;border:2px solid #f44336;box-shadow:1px 4px 8px 4px #0000004a;position:relative;"><div style="color:#f44336;font-size:45px;font-weight:bold;background-color:white;border-radius:50px;margin-right:20px;">!</div><p style="font-size: 18px;">Foi detectado um <strong>problema</strong> com o layout do site!<br>É recomendável desabilitar o <span class="red-text"><strong>Ad-Blocker</strong></span><br>Ou qualquer extensão que bloqueie <strong>JavaScript</strong>.</p><div id="close-error-script-bt" style="position:absolute;top:3px;right:12px;cursor:pointer;">X</div></div></div></div>
+    <header>
+      <div class="container">
+  <a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle">
+  <i class="material-icons">menu</i>
+  </a>
+</div>
+<ul id="nav-mobile" class="sidenav">
+  <li class="logo blue">
+    <a id="logo-container" href="https://markdown.net.br" class="brand-logo">
+    <img src="https://markdown.net.br/assets/img/markdown-logo-transparent.svg" height="100">
+    </a>
+  </li>
+  <li class="push-it-down"></li>
+  <li class="search white">
+    <div class="search-wrapper">
+      <input id="search" placeholder="Search"><i class="material-icons">search</i>
+      <div class="search-results"></div>
+    </div>
+  </li>
+  <li class="bold white">
+    <a href="/getting-started/" class="waves-effect waves-blue"><i class="tiny material-icons">child_care</i>Getting Started</a>
+  </li>
+  <li class="bold white">
+    <a href="/basic-syntax/" class="waves-effect waves-blue"><i class="tiny material-icons">short_text</i>Basic Syntax</a>
+  </li>
+  <li class="bold white">
+    <a href="/extended-syntax/" class="waves-effect waves-blue"><i class="tiny material-icons">format_align_left</i>Extended Syntax</a>
+  </li>
+  <li class="bold white">
+    <a href="/cheatsheet/" class="waves-effect waves-blue"><i class="tiny material-icons">help_outline</i>Cheatsheet</a>
+  </li>
+  <li class="bold white">
+    <a href="/tools/" class="waves-effect waves-blue"><i class="tiny material-icons">card_travel</i>Tools</a>
+  </li>
+  <li class="bold white">
+    <a href="/faq/" class="waves-effect waves-blue"><i class="tiny material-icons">question_answer</i>FAQ</a>
+  </li>
+</ul>
+    </header>
+    <main>
+      <div class="section" id="index-banner">
+        <div class="container">
+          <div class="row" style="margin-bottom: 0;">
+            <div class="col s12 m6 l7 offset-m1 offset-l1">
+              <h1>GitHub Pages</h1>
+              <h4 class="light">GitHub Pages is a Web service that allows the user to host a free website created from Markdown files.</h4>
+              <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                  <a itemprop="item" href="/">
+                      <span itemprop="name">Markdown</span></a>
+                  <meta itemprop="position" content="1" />
+                </li>
+                <li>
+<i class="fas fa-chevron-right chevron-separator"></i>
+</li>
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+<a itemprop="item" href="/tools/">
+<span itemprop="name">Markdown editors</span>
+</a>
+<meta itemprop="position" content="2" />
+</li>
+<li>
+<i class="fas fa-chevron-right chevron-separator"></i>
+</li>
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+<span itemprop="name">GitHub Pages</span>
+<meta itemprop="position" content="3" />
+</li>
+
+              </ol>
+            </div>
+            <div class="col s12 m5 l4 mt-s-30" align="center">
+            	<!-- square-fixed-300-250 -->
+            	<ins class="adsbygoogle"
+            	     style="display:inline-block;width:300px;height:250px"
+            	     data-ad-client="ca-pub-3427355473051563"
+            	     data-ad-slot="1035906960"></ins>
+            	<script>
+            	     (adsbygoogle = window.adsbygoogle || []).push({});
+            	</script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!--  Outer row  -->
+        <div class="row">
+          <div class="section col s12 m8 offset-m1 xl7 offset-xl1">
+            <div class="row scrollspy">
+  <div class="col s12">
+    <h2 id="intro">Overview</h2>
+
+    <p>If you already have experience with GitHub and need to host a website on the internet, you can directly use the GitHub Pages storage service.</p>
+
+    <p>It is worth mentioning that the pages hosted on GitHub Pages are simple pages, like pages in HTML, there is no server for you to run PHP, Python or Ruby and neither a database.</p>
+
+    <p class="mv-40">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-3427355473051563"
+             data-ad-slot="3854885260"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </p>
+
+    <p>To host a website, just create a new repository, insert your Markdown formatted files and activate the GitHub Pages feature.</p>
+
+    <p>GitHub Pages is one of the tools with greater compatibility with Markdown using as base the static website generator <a href="/tools/jekyll/">Jekyll</a>.</p>
+
+    <p>The tool also offers themes to the users so they don't have to start their sites from scratch.</p>
+
+    <p>Of course, you can create a website and format it using your own CSS.</p>
+
+    <p class="mv-40">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-3427355473051563"
+             data-ad-slot="3854885260"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </p>
+
+    <p>Below, you can see a Web page built with one of the themes offered by GitHub Pages.</p>
+
+    <div class="image-container mt-60">
+      <img src="https://markdown.net.br/assets/img/github-pages-window.png" class="materialboxed" alt="Markdown - GitHub Pages application window!" title="Markdown - GitHub Pages application window!">
+    </div>
+
+    <p>Just out of curiosity, GitHub Pages and GitHub use different Markdown processors. GitHub has its own Markdown processor while GitHub Pages uses <a href="https://github.com/github/jekyll-commonmark-ghpages" target="_blank">jekyll-commonmark</a>.</p>
+
+    <p>With this incongruence between Markdown processors, some formatting may appear differently in your README.md file.</p>
+
+    <p>The most notorious would be the use of emoticons, on GitHub website it would be rendered but on the website generated by GitHub Pages it would be not.</p>
+
+    <p class="mv-40">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-3427355473051563"
+             data-ad-slot="3854885260"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </p>
+
+    <p><a href="https://pages.github.com/" target="_blank">https://pages.github.com/</a> is the GitHub Pages official website.</p>
+
+    <h2 id="markdown-support">GitHub Pages Markdown Support</h2>
+
+    <p>In <a href="#table-1-1">Table 1.1</a> the Markdown elements compatible with GitHub Pages are shown.</p>
+
+    <table class="responsive-table" id="table-1-1">
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Support</th>
+          <th>Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="/basic-syntax/#headings" target="_blank">Titles</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#paragraphs" target="_blank">Paragraphs</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#line-break" target="_blank">Line breaks</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#bold" target="_blank">Bold</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#italics" target="_blank">Italic</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#blockquote" target="_blank">Blockquote</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#lists-ordered" target="_blank">Ordered lists</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#lists-unordered" target="_blank">Unordered lists</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#code" target="_blank">Code</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#horizontal-rule" target="_blank">Horizontal lines</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#links" target="_blank">Links</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#images" target="_blank">Images</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-tables" target="_blank">Tables</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#fenced-code-block" target="_blank">Fenced code blocks</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td>You can highlight the code block content but to do that it's necessary to check if the option <code class="lang-plaintext">syntax_highlighter: rouge</code> is in the <code class="lang-plaintext">_config.yml</code> configuration file, this option is located in the <code class="lang-plaintext">kramdown</code> section.</td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-footnotes" target="_blank">Footnotes</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-title-id" target="_blank">Title Id</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-definition-lists" target="_blank">Definition lists</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-strikethrough" target="_blank">Strikethrough</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td>GitHub Pages provides support for both syntaxes, with two tildes <code class="lang-plaintext">~~word~~</code> and one tilde <code class="lang-plaintext">~word~</code>.</td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-task-lists" target="_blank">Task lists</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#emojis-copy-and-paste" target="_blank">Emoji (copy and paste)</a></td>
+          <td class="white lighten-4">Unknown</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#emojis-access-code" target="_blank">Emoji (access codes)</a></td>
+          <td class="white lighten-4">Unknown</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-auto-link" target="_blank">automatic URL Link</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/extended-syntax/#markdown-disable-auto-link" target="_blank">Disable automatic link from URL</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/basic-syntax/#html" target="_blank">HTML</a></td>
+          <td class="green lighten-4">Yes</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="addition-elements">Support for additional elements</h2>
+
+    <p><a href="#table-1-2">Table 1.2</a> shows elements not so familiar to Markdown users that are supported by GitHub Pages.</p>
+
+    <table class="responsive-table" id="table-1-2">
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Markdown</th>
+          <th>Output</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Abbreviation</td>
+          <td><code>*[HTML]: Hyper Text Markup Language</code><br />
+          <code>The HTML specification is maintained by the W3C.</code></td>
+          <td>The specification of <abbr title="Hyper Text Markup Language">HTML</abbr> is maintained by the W3C</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="see-also">See also</h2>
+
+    <p><a href="https://jekyllrb.com/" target="_blank">Jekyll documentation</a></p>
+    <p><a href="https://kramdown.gettalong.org/" target="_blank">kramdown Documentation</a></p>
+  </div> <!-- Fim do conteúdo principal -->
+</div>
+            <div class="col-12">
+  <ul class="collapsible">
+    <li class="active">
+      <div class="collapsible-header grey lighten-4"><i class="material-icons">share</i>Share</div>
+      <div class="collapsible-body">
+        <div class="collection">
+          <a href="#!" class="collection-item" data-sharer="twitter" data-title="GitHub Pages® - Markdown™ Cheatsheet [Formatting reference]" data-hashtags="markdown" data-url="https://en.markdown.net.br/tools/github-pages/">
+            <i class="fab fa-twitter color-twitter"></i>&nbsp;&nbsp;Share on Twitter
+          </a>
+          <a href="#!" class="collection-item" data-sharer="facebook" data-hashtag="markdown" data-url="https://en.markdown.net.br/tools/github-pages/">
+            <i class="fab fa-facebook color-facebook"></i>&nbsp;&nbsp;Share on Facebook
+          </a>
+          <a href="#!" class="collection-item" data-sharer="linkedin" data-url="https://en.markdown.net.br/tools/github-pages/">
+            <i class="fab fa-linkedin color-linkedin"></i>&nbsp;&nbsp;Share on Linkedin
+          </a>
+          <a href="#!" class="collection-item" data-sharer="email" data-title="GitHub Pages® - Markdown™ Cheatsheet [Formatting reference]" data-url="https://en.markdown.net.br/tools/github-pages/" data-subject="Hi! How are you doing? I found this Markdown tutorial, it's very easy to follow, take a look when you can. I hope it's helpful, see you." data-to="email@host.com">
+            <i class="fas fa-envelope color-email"></i>&nbsp;&nbsp;Share by Email
+          </a>
+          <a href="#!" class="collection-item" data-sharer="whatsapp" data-title="GitHub Pages® - Markdown™ Cheatsheet [Formatting reference]" data-url="https://en.markdown.net.br/tools/github-pages/">
+            <i class="fab fa-whatsapp color-whatsapp"></i>&nbsp;&nbsp;Share on Whatsapp
+          </a>
+          <a href="#!" class="collection-item" data-sharer="telegram" data-title="GitHub Pages® - Markdown™ Cheatsheet [Formatting reference]" data-url="https://en.markdown.net.br/tools/github-pages/" data-to="(00) 99999-9999">
+            <i class="fab fa-telegram color-telegram"></i>&nbsp;&nbsp;Share on Telegram
+          </a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+          </div>
+          <!-- Table of contents -->
+          <div class="col hide-on-small-only m3 xl3 offset-xl1">
+            <div class="toc-wrapper" id="sticky-navigator">
+            </div>
+          </div>
+          <!-- Table of contents -->
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer docs-footer">
+  <div class="container">
+    <div class="row" style="margin-bottom: 0;">
+      <div class="col s12 m10 offset-m1">
+        <div class="row">
+          <div class="col l4 s12" style="overflow: hidden;">
+            <a href="https://twitter.com/CodigoNetwork" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @CodigoNetwork</a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div>
+            &copy;&nbsp;<noscript>2020</noscript><script type="text/javascript">document.write(new Date().getFullYear());</script> <strong>Markdown</strong>, All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!--  Scripts-->
+    <script src="/assets/js/bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-invisibles/prism-show-invisibles.min.js" integrity="sha256-1baFoczEXwdtWBiZ6gbu7W1kn6XfPgKY4LkQQYNHTkM=" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-asciidoc.min.js" integrity="sha256-Z6qgXS53J00CrN9qHl3CxGqX2A3qs6HwGi96bnk2e4w=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-markdown.min.js" integrity="sha256-LVbOCHxYsNr9pF5KGdB2NphtO2FKM92SGFxRkWc9Ovg=" crossorigin="anonymous"></script>
+    <script src="/assets/js/search.min.js"></script>
+
+    <script src="/assets/js/vendor/jquery.lazy@1.7.9/jquery.lazy.min.js"></script>
+    <script src="/assets/js/vendor/jquery.lazy@1.7.9/jquery.lazy.youtube.min.js"></script>
+    <script src="/assets/js/vendor/jquery.lazy@1.7.9/jquery.lazy.picture.min.js"></script>
+    <!-- Lightbox das imagens -->
+    <script>
+      $(document).ready(function(){
+         $('.materialboxed').materialbox();
+
+         $('picture.lazy-img.unloaded, img.lazy-img, iframe.lazy-yt.unloaded').Lazy({
+             effect: 'fadeIn',
+             effectTime: 1000
+             // called after an element was successfully handled
+             // afterLoad: function(element) {
+             // // Remove a animação do loader da imagem
+             //     // element.height(element.closest('.img-lazy-container').find('.image-placeholder').height());
+
+             //     element.removeClass('unloaded');
+             // }
+         });
+       });
+      anchors.add("h2, h3, h5");
+      $('#sticky-navigator').stickyNavigator();
+    </script>
+    <!-- Twitter Button -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </body>
+</html>
